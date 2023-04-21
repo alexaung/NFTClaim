@@ -89,7 +89,7 @@ go run main.go
 
     1. Navigate to the smart-contracts directory and install dependencies with `yarn install`.
     2. Compile the smart contract with `npx hardhat compile`.
-    3. Deploy the smart contract to the blockchain with npx hardhat run scripts/deploy.js --network <network-name>.
+    3. Deploy the smart contract to the blockchain with `npx hardhat run scripts/deploy.js --network <network-name>`.
 
     Note: Before deploying the smart contract, you need to have a running blockchain network or a local development blockchain such as Hardhat or Ganache.
 
