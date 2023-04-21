@@ -79,11 +79,13 @@ to install the necessary dependencies.
 
 3. Create a .env file with the following contents:
 
+```bash
 VITE_CONTRACT_ADDRESS=<address of the deployed smart contract>
 VITE_NFT_METADATA_URI=<address of the metadata smart contract>
 VITE_ACCOUNT_ADDRESS=<address of the smart contract account>
 VITE_ACCOUNT_PRIVATE_KEY=<address of the private key>
 VITE_API_BASE_URL=<address of the api>
+```
 
 
 VITE_NFT_METADATA_URI should be set to the URL of the API that serves the metadata for your NFTs. In this application, the metadata API is hosted on http://localhost:8080/metadata/{id}.
