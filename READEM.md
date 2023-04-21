@@ -60,7 +60,7 @@ go run cmd/migrate.go
 1. Start the Golang API server:
 
 ```bash
-cd nft-claim-app/api
+cd go-react-nft-app/api
 go run main.go
 ```
 
