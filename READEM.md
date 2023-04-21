@@ -36,7 +36,7 @@ git clone https://github.com/alexaung/NFTClaim.git
 2. Install dependencies:
 
 ```bash
-cd nft-claim-app/webapp
+cd go-react-nft-app/webapp
 yarn install
 
 cd ../api
