@@ -49,6 +49,15 @@ cd ../smart-contracts
 yarn install
 ```
 
+## Migration
+
+1. Running the Go API migrations (optional):
+
+```bash
+cd ../api
+go run cmd/migrate.go
+```
+
 ## Running the application
 
 1. Start the Golang API server:
