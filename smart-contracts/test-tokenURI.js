@@ -14,8 +14,8 @@ async function main() {
   for (let i = 0; i < 5; i++) {
     const signer = signers[i];
     const tokenId = i + 1;
-    const tokenURI = `http://your-metadata-api.com/metadata/${tokenId}`;
-    await contract.connect(signer).mintNFT(signer.address, tokenURI);
+    const metadataUrl = `http://localhost:8080/metadata/${tokenId}`;
+    await contract.connect(signer).mintNFT(signer.address, tokenId, metadataUrl);
     console.log(`NFT with token ID ${tokenId} minted by wallet ${signer.address}`);
 
     // Fetch the token URI for the minted NFT
