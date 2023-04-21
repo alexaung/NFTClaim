@@ -4,16 +4,17 @@ A decentralized application for claiming NFTs using Ethereum blockchain. Built w
 
 ## Features
 
-Connects to an Ethereum wallet using Metamask.
-Displays an NFT metadata for the claimed NFT.
-The claim data is stored in a smart contract on the Ethereum blockchain.
-The backend API is built using Go.
+- Connects to an Ethereum wallet using Metamask.
+- Displays an NFT metadata for the claimed NFT.
+- The claim data is stored in a smart contract on the Ethereum blockchain.
+- The backend API is built using Go.
 
 ## Prerequisites
 
 Before running the application, ensure that the following software is installed on your machine:
 
 - Node.js
+- Yarn
 - Hardhat
 - MetaMask
 - Go
@@ -33,7 +34,7 @@ You can find more information about how to install these tools by visiting their
 
 ```bash
 git clone https://github.com/your-username/nft-claim-app.git
-
+```
 
 2. Install dependencies:
 
