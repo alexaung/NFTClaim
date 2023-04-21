@@ -30,7 +30,7 @@ You can find more information about how to install these tools by visiting their
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/nft-claim-app.git
+git clone https://github.com/alexaung/NFTClaim.git
 ```
 
 2. Install dependencies:
