@@ -12,5 +12,9 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
+# Meta Mask secret recovery phrase
+
+ unknown kitten bleak bus sauce original aunt defy pig kind theme connect
+
  # Password
  mydream@2020

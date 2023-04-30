@@ -72,6 +72,7 @@ const App = () => {
         "{id}",
         data.tokenId
       )}`;
+
       console.log(
         "Minting NFT with walletAddress:",
         walletAddress,
@@ -80,6 +81,7 @@ const App = () => {
         "tokenURI:",
         data.tokenId
       );
+      
       const tx = await contract.mintNFT(
         walletAddress,
         data.tokenId,

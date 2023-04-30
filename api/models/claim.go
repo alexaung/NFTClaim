@@ -1,3 +1,4 @@
+// api/models/claim.go
 package models
 
 import (

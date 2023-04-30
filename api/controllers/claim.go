@@ -1,3 +1,4 @@
+// api/controllers/claim.go
 package controllers
 
 import (
